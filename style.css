@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu_bar{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+}
+.menu_bar ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu_bar ul li a:hover{
+    color: lightgreen;
+}
+.header{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.header_2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.flex-container{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-box{
+    width: 250px;
+    height: 70px;
+    background: white;
+    color: rgb(73, 243, 73);
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    border: 1px solid rgb(73, 243, 73);
+    border-radius: 20px;
+    margin: 20px;
+}
+.ancur{
+    text-decoration: none;
+    color: rgb(73, 243, 73);
+}
+.ancur:hover{
+    background-color:rgb(73, 243, 73) ;
+    color:white ;
+}
+.flex-box:hover{
+    background-color:rgb(73, 243, 73) ;
+    color:white ;
+}
+.new-project{
+    text-align: center;
+    padding-top: 50px;
+}
+.p1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.p2{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/* .header{
+    margin: 0 auto;
+}
+nav{
+    height: 40px;
+    background: white;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+nav ul{
+    padding: 0;
+    margin: 0%;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: wheat;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: white;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul a:hover>ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+} */
